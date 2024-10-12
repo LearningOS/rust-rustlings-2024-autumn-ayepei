@@ -9,11 +9,9 @@
 
 
 fn longest<'a>(x: &'a str, y: & str) -> &'a str {
-    if x.len() > y.len() {
+
         x
-    } else {
-        y
-    }
+   
 }
 
 fn main() {
